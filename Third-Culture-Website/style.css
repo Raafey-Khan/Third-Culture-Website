@@ -280,6 +280,7 @@ color: #5A5A5A;
     height: 500px;
     width: 350px;
     overflow: hidden;
+  
 }
 .Bannner-Image-Container img{
     object-fit: cover;
@@ -289,4 +290,39 @@ color: #5A5A5A;
 
 .new-collections{
     height: 400px;
+    margin-bottom: 2rem;
+}
+
+.new-collections{
+    margin-top: 4rem;
+    width: 100%;
+    height: 100%;
+}
+.new-collections-active{
+    text-decoration: underline;
+    margin-right: 3rem;
+}
+
+.xll{
+    text-decoration: line-through;
+}
+
+.letter, .xll{
+    letter-spacing: 3px;
+    font-size: 14px;
+    color: #BBBBBB;
+}
+
+
+.view{
+    width: 100%;
+    text-align: center;
+
+}
+.new-collection-contain{
+    border: solid;
+}
+
+.view-button{
+    border: solid;
 }
