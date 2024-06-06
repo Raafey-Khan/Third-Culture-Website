@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border: solid black 0.5px ;
 }
 
 .sticky-navbar-section{
@@ -20,10 +21,7 @@
 
 }
 
-.navbarr{
-    height: 5rem;
-    margin-bottom: 3rem;
-}
+
 
 .nav-container{
 
@@ -63,9 +61,10 @@ text-align: left;
 
 
 .temp-hamburg{
-    position: absolute;
-    right: 78rem;
-    top: 32rem;
+ margin-top: 26rem;
+ display: flex;
+ justify-content: center;
+ align-items: center;
 }
 
 
@@ -81,8 +80,8 @@ text-align: left;
 /* Testing flex */
 
 .hero-flex-containerr{
-    height: 100vh;
-    width: 210.5vh;
+    height: 100%;
+    width: 100%;
    
 }
 
@@ -95,37 +94,42 @@ text-align: left;
     overflow: hidden;
 }
 
+.carousel-inner{
+    height: 100% !important;
+}
+
 .wrapper{
     background-image: url(images/hero-img.png);
     background-size: cover;
-    height: 100vh;
+    height: 592px;
     background-repeat: no-repeat;
 }
 
 .wrapper-1{
     background-image: url(images/discount.png);
     background-size: cover;
-    height: 100vh;
+    height: 592px;
     background-repeat: no-repeat;
 }
 
 .wrapper-2{
     background-image: url(images/hero-img.png);
     background-size: cover;
-    height: 100vh;
+    height: 592px;
     background-repeat: no-repeat;
 }
 
 
 .Recently-Viewed-Flex-top{
     justify-content: space-between;
+    margin-top: 3rem;
    
 }
 
 
 .Recently-Viewed-Flex-Boxes{
     
-    height: 50vh;
+    height: 100%;
     margin-bottom: 9rem;
     
 }
@@ -162,13 +166,15 @@ text-align: left;
 
 .card, .card img{
     border-radius: 0px !important;
-    height: 29rem;
+    
     
 }
-
+.Recently-Viewed-Flex-Boxes{
+    gap: 2.5rem !important;
+}
 .card img{
-   
-    padding-bottom: -9rem;
+    margin-top: 1rem;
+    width: 19rem;
     object-fit: cover;
 }
 
