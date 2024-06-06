@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sticky-navbar-section{
+    padding: 0.8rem;
+    background: #000000;
+
+    
+}
+
+.sticky-navbar-content{
+    color: #FFFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    
+
+}
+
+.navbarr{
+    height: 5rem;
+    margin-bottom: 3rem;
+}
+
+.nav-container{
+
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+   
+}
+
+
+.d-2 h2{
+font-size: 36px;
+font-weight: 700;
+line-height: 54px;
+text-align: left;
+color: #484848;
+}
+
+.d-1 span{
+color: #5A5A5A;
+font-size: 14px;
+font-weight: 700;
+line-height: 17.5px;
+letter-spacing: 0.005em;
+text-align: left;
+
+}
+.d-1 .Men{
+    margin-right: 2rem;
+}
+
+
+.d-3, i , i , span, i{
+    margin: 0 0.3rem;
+    font-size: 16px;
+    color: #494949;
+}
+
+
+.temp-hamburg{
+    position: absolute;
+    right: 78rem;
+    top: 32rem;
+}
+
+
+.wrap{
+
+    width: 5rem;
+}
+
+.offcanvas .offcanvas-start {
+    left: 0 !important;
+}
+
+/* Testing flex */
+
+.hero-flex-containerr{
+    height: 100vh;
+    width: 210.5vh;
+   
+}
+
+.hero-flex-containerr .first{
+    flex-basis: 8%;
+}
+.hero-flex-containerr .second{
+    flex-basis: 94%;
+    margin-bottom: 2rem;
+    overflow: hidden;
+}
+
+.wrapper{
+    background-image: url(images/hero-img.png);
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+.wrapper-1{
+    background-image: url(images/discount.png);
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+.wrapper-2{
+    background-image: url(images/hero-img.png);
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+
+.Recently-Viewed-Flex-top{
+    justify-content: space-between;
+   
+}
+
+
+.Recently-Viewed-Flex-Boxes{
+    
+    height: 50vh;
+    margin-bottom: 9rem;
+    
+}
+
+.box-1{
+    height: 300px;
+    width: 300px;
+  
+}
+
+.box-2{
+    height: 300px;
+    width: 300px;
+  
+}
+.box-3{
+    height: 300px;
+    width: 300px;
+  
+}
+.box-4{
+    height: 300px;
+    width: 300px;
+  
+}
+.card{
+    border: none !important;
+}
+
+
+.box-1, .box-2, .box-3, .box-4{
+    object-fit: cover;
+}
+
+.card, .card img{
+    border-radius: 0px !important;
+    height: 29rem;
+    
+}
+
+.card img{
+   
+    padding-bottom: -9rem;
+    object-fit: cover;
+}
+
+.card-img-top{
+    border: none;
+}
+.card-body{
+    border: none;
+}
+.line-tho{
+    text-decoration: line-through;
+    font-size: 0.7rem;
+}
+.price{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.card-body{
+    color: #5A5A5A !important;
+}
+
+.percent-off{
+    color: #fafafa;
+    background-color: #5A5A5A;
+    font-size: 0.7rem;
+    padding: 0.1rem;
+}
+
+.Shop-By-Collection-Container{
+    height: 300px;
+    width: 200px;
+}
+
+.Shop-By-Collection-Container .heading-txt{
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 19px;
+font-weight: 700;
+line-height: 25px;
+margin-top: 0.3rem;
+letter-spacing: 0.005em;
+text-align: left;
+color: #5A5A5A;
+
+}
+
+.Shop-By-Collection-boxes{
+    margin-top: 2rem;
+}
+
+.Shop-By-Collection-boxes p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 13px;
+font-weight: 700;
+line-height: 25px;
+margin-top: 0.3rem;
+letter-spacing: 0.005em;
+text-align: left;
+color: #5A5A5A;
+
+}
+
+.Bannner-Image-Container{
+
+
+    height: 500px;
+    width: 350px;
+    overflow: hidden;
+}
+.Bannner-Image-Container img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.new-collections{
+    height: 400px;
+}
